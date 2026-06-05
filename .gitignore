@@ -1,0 +1,7 @@
+# Vagrant dolda filer och loggar
+.vagrant/
+vagrant-*.log
+
+# Systemfiler (om du kör Mac eller Windows)
+.DS_Store
+Thumbs.db
