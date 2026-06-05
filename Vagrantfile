@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     fw.vm.network "private_network", virtualbox__intnet: "Server_Net", ip: "10.0.2.1"
     
     fw.vm.provider "virtualbox" do |vb|
-      vb.name = "Labb_Firewall"
+      vb.name = "Lab_Firewall"
       vb.memory = "1024"
       vb.cpus = 1
     end
@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
     client.vm.network "private_network", virtualbox__intnet: "Admin_Net", ip: "10.0.1.10"
     
     config.vm.provider "virtualbox" do |vb|
-      vb.name = "Labb_Client"
+      vb.name = "Lab_Client"
       vb.memory = "1024"
       vb.cpus = 1
     end
@@ -62,7 +62,7 @@ Vagrant.configure("2") do |config|
     srv.vm.network "private_network", virtualbox__intnet: "Server_Net", ip: "10.0.2.10"
     
     config.vm.provider "virtualbox" do |vb|
-      vb.name = "Labb_Server"
+      vb.name = "Lab_Server"
       vb.memory = "1024"
       vb.cpus = 1
     end
