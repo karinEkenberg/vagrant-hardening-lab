@@ -1,5 +1,3 @@
-# vagrant-hardening-lab
-
 # Segmented Hardening Lab Environment (IaC)
 
 This repository contains a **Vagrant** configuration to automatically spin up a local, isolated, and segmented network environment inside VirtualBox. It is designed to simulate a real-world enterprise network topology for practicing system hardening and network firewall configurations.
