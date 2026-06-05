@@ -1,0 +1,1 @@
+# vagrant-hardening-lab
